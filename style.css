@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #d9d6d0;
+}
+
+ul,ol {
+    display: inline-block;
+    text-align: left;
+}
+
+.homepage.header1{
+    font-size: 100px;
+}
