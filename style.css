@@ -1,7 +1,17 @@
-body {
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body,.content {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #d9d6d0;
+    background-image: linear-gradient(90deg,white,gray);
 }
 
 ul,ol {
@@ -9,6 +19,24 @@ ul,ol {
     text-align: left;
 }
 
-.homepage.header1{
+.main-menu li {
+    margin: 10px;
+}
+
+.main-menu {
+    background-color: #f9dd69;
+    border: solid black;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.title {
     font-size: 100px;
+    background-color: #f9dd69;
+    width: 700px;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 5px;
+    border-width: 2px;
+    border: solid black;
 }
